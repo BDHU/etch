@@ -32,6 +32,9 @@ main#content header#post-header h1 {
 }
 
 main#content img {
+    display: block;
+    max-width: 100%;
+    border: 2px solid rgb(53, 159, 245);
     /* max-width: 108%; */
     /* margin-left: -3.8%; */
 }
@@ -50,13 +53,5 @@ main#content pre {
     padding: 1.5rem 2.2rem;
 }
 
-img[src$='#center']
-{
-    display: block;
-    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
-                            whatever floats your boat, but keep the
-                            horizontal 'auto' for this to work */
-    /* whatever else styles you fancy here */
-    max-width: 100%;
-}
+
 }
