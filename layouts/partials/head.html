@@ -26,7 +26,11 @@
 
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+    
     {{ partial "mathjax.html" . }}
+
+    {{ template "_internal/google_analytics.html" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
 
     <title>{{ .Title }}</title>
 </head>
