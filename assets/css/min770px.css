@@ -32,8 +32,8 @@ main#content header#post-header h1 {
 }
 
 main#content img {
-    max-width: 108%;
-    margin-left: -3.8%;
+    /* max-width: 108%; */
+    /* margin-left: -3.8%; */
 }
 
 main#content figure {
@@ -48,5 +48,15 @@ main#content pre {
     width: 108%;
     margin-left: -3.8%;
     padding: 1.5rem 2.2rem;
+}
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+    max-width: 100%;
 }
 }
