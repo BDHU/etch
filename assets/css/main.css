@@ -196,7 +196,7 @@ main#content #toc ol li:before {
 
 main#content img {
     border: 2px solid rgb(53, 159, 245);
-    border-radius: 12px;
+    border-radius: 10px;
     max-width: 100%;
     margin: 0 auto;
 }
