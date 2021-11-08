@@ -35,7 +35,7 @@ main#content img {
     display: block;
     max-width: 100%;
     /* border: 2px solid rgb(53, 159, 245); */
-    border-radius: 10px;
+    border-radius: 8px;
     /* max-width: 108%; */
     /* margin-left: -3.8%; */
 }
