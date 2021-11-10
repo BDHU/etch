@@ -1,0 +1,11 @@
+{{ if or (and .Site.Params.enableComments (ne .Params.enableComments false)) (eq .Params.enableComments true) }}
+    <div style="width: 100%;" id="comment">
+      <script src="https://utteranc.es/client.js"
+        repo="BDHU/blog"
+        issue-term="pathname"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
+{{ end }}
