@@ -120,6 +120,8 @@ main#content ul#posts small {
     font-size: 0.8em;
     color: #767676;
     margin-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 main#content ul#posts li a {
