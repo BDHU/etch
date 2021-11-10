@@ -2,7 +2,7 @@
 <h4>{{ .Key }}</h4>
     <ul id="posts">
     {{ range .Pages }}
-        {{ .Render "li" }}
+        {{ .Render "li-short" }}
     {{- end }}
     </ul>
 {{- end }}
