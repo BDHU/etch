@@ -1,4 +1,4 @@
-/* Code highlight in dark mode */
+/* Code highlighting in dark mode */
 {{ if not (eq .Site.Params.dark "on") -}}
 @media (prefers-color-scheme: dark) {
 {{ end -}}
@@ -68,7 +68,7 @@
 {{- end -}}
 
 
-/* Code highlight in light mode */
+/* Code highlighting in light mode */
 {{ if (eq .Site.Params.dark "on") -}}
 @media (prefers-color-scheme: light) {
 {{ end -}}
