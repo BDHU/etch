@@ -1,6 +1,6 @@
 <li>
     <a href="{{ .Permalink }}">
         {{ .Title }}
-        <small><time>{{ .Date.Format "Jan 2" }}</time></small>
+        <small><time>{{ .Date | time.Format (i18n "posts.date_short") }}</time></small>
     </a>
 </li>
