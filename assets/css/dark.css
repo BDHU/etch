@@ -17,6 +17,15 @@ header#banner a {
     text-decoration: none;
 }
 
+header#return a {
+    color: #00b1ed;
+    text-decoration: none;
+}
+
+header#return a:hover {
+    color: #21c7ff;
+}
+
 header#banner nav ul li a {
     color: #cccccc;
 }
