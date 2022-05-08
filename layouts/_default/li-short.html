@@ -1,6 +1,6 @@
-<li>
+<li style="display:flex;">
+    <date><time>{{ .Date | time.Format (i18n "posts.date_short") }}</time></date>
     <a href="{{ .Permalink }}">
         {{ .Title }}
-        <small><time>{{ .Date | time.Format (i18n "posts.date_short") }}</time></small>
     </a>
 </li>

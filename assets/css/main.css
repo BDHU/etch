@@ -148,6 +148,18 @@ main#content ul#posts small {
     white-space: nowrap;
 }
 
+main#content ul#posts date {
+    font-size: 0.8em;
+    color: #767676;
+    margin-top:3px;
+    margin-right: 10px;
+    min-width: 50px;
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
 main#content ul#posts li a {
     text-decoration: none;
 }
