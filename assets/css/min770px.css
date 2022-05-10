@@ -22,12 +22,15 @@ header#return h2 {
 
 main#content h3 {
     font-size: 20px;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 1.6rem;
 }
 
 main#content ul#posts {
-    font-size: 18px;
-    font-size: 1.8rem;
+    /* font-size: 18px; */
+    /* font-size: 1.8rem; */
+    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 /* single.html styles */
@@ -40,7 +43,7 @@ main#content img {
     display: block;
     max-width: 100%;
     /* border: 2px solid rgb(53, 159, 245); */
-    border-radius: 8px;
+    border-radius: 6px;
     /* max-width: 108%; */
     /* margin-left: -3.8%; */
 }
