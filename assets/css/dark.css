@@ -50,6 +50,10 @@ main#content ul#posts small {
     color: #a7a7a7;
 }
 
+main#content ul#posts date {
+    color: #a7a7a7;
+}
+
 main#content ul#posts li a:hover {
     color: #21c7ff;
 }
