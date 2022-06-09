@@ -18,12 +18,14 @@ header#banner a {
 }
 
 header#return a {
-    color: #e0e0e0;
+    /* color: #e0e0e0; */
+    color: #767676;
     text-decoration: none;
 }
 
 header#return a:hover {
-    color: #21c7ff;
+    /* color: #21c7ff; */
+    text-decoration: underline;
 }
 
 header#banner nav ul li a {
