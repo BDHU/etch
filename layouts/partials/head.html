@@ -32,5 +32,6 @@
     {{ template "_internal/google_analytics.html" . }}
     {{ template "_internal/google_analytics_async.html" . }}
 
+    <link rel="canonical" href="{{ .Permalink }}" />
     <title>{{ .Title }}</title>
 </head>

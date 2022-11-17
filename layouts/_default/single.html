@@ -9,7 +9,7 @@
             {{ else }}
                 <time>{{ .Lastmod | time.Format (i18n "post.updated") }}</time>
             {{ end }} -->
-                <time>{{ .Date | time.Format (i18n "post.created") }}</time>
+                <time>{{ .Lastmod | time.Format (i18n "post.created") }}</time>
         {{- end -}}
         </div>
     </header>
