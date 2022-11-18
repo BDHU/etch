@@ -27,14 +27,15 @@ header#return {
 }
 
 header#banner a {
-    color: #313a3d;
+    /* color: #313a3d; */
+    color: #505050;
     text-decoration: none;
 }
 
 header#return a {
     /* color: #313a3d; */
     font-size: 1.5rem;
-     color: #aaa;
+    color: #aaa;
     text-decoration: none;
 }
 
@@ -184,11 +185,11 @@ main#content ul#posts li a:hover small {
 /* single.html styles */
 main#content header#post-header h1 {
     display: block;
-    font-size: 23px;
-    /* font-size: 2.65rem; */
+    /* font-size: 23px; */
+    font-size: 2.65rem;
     font-weight: 600;
     /* line-height: 1.15; */
-    /* line-height: 2.5rem; */
+    line-height: 2.5rem;
     margin-bottom: 5px;
 }
 

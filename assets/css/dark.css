@@ -7,13 +7,15 @@ html {
 
 body {
     color: #ebebeb;
-    background: #121212;
+    /* background: #121212; */
+    background: #212121;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 header#banner a {
-    color: #e0e0e0;
+    /* color: #e0e0e0; */
+    color: #b5b5b5;
     text-decoration: none;
 }
 
