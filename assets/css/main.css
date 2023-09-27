@@ -29,6 +29,7 @@ header#return {
 header#banner a {
     /* color: #313a3d; */
     color: #505050;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -100,16 +101,16 @@ main#content h5,
 main#content h6 {
     margin-bottom: 0;
     line-height: 1.15;
-    font-size: 16px;
+    /* font-size: 13px; */
     /* added */
     /* font-weight: 500; */
 }
 
 main#content h3 {
-    /* font-size: 19px;
-    font-size: 1.9rem; */
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-size: 19px;
+    font-size: 1.9rem;
+    /* font-size: 1.6rem; */
+    /* font-weight: 500; */
 }
 
 main#content h1 + p,
@@ -122,7 +123,7 @@ main#content h6 + p {
 }
 
 main#content p {
-    color: #394548;
+    color: #1c2f35;
     margin: 16px 0;
 }
 
@@ -184,13 +185,16 @@ main#content ul#posts li a:hover small {
 
 /* single.html styles */
 main#content header#post-header h1 {
-    display: block;
-    /* font-size: 23px; */
+    /* display: block;
     font-size: 2.65rem;
-    font-weight: 600;
-    /* line-height: 1.15; */
     line-height: 2.5rem;
-    margin-bottom: 5px;
+    margin-bottom: 5px; */
+
+    display: block;
+    font-size: 23px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.15;
 }
 
 main#content header#post-header > div {
