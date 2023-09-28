@@ -341,3 +341,11 @@ footer#footer {
     color: #b3b3b3;
     margin: 40px 0;
 }
+
+footer#footer a {
+    color: #b3b3b3;
+}
+
+footer#footer a:hover {
+    color: black;
+}
