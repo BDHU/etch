@@ -18,7 +18,8 @@ body {
 header#banner a {
     /* color: #e0e0e0; */
     /* color: #b5b5b5; */
-    color: #56442d;
+    /* color: #56442d; */
+    color: #a00;
     text-decoration: none;
 }
 
@@ -35,7 +36,8 @@ header#return a:hover {
 
 header#banner nav ul li a {
     /* color: #cccccc; */
-    color: #56442d;
+    /* color: #56442d; */
+    color: #767676;
 }
 
 main#content a {
