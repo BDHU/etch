@@ -1,19 +1,16 @@
 {{ if .IsPage }}
-    <header id="return">
-        <h2></h2>
-        <a href="{{ .Site.BaseURL }}">std::bodun::blog::</a>
+    <header id="banner">
+        <!-- <h2><a href="{{ .Site.BaseURL }}">blog</a> | <a href="{{ .Site.BaseURL }}/posts">posts</a> | <a href="/about/">about</a></h2> -->
+        <span><a href="{{ .Site.BaseURL }}">blog</a> | <a href="{{ .Site.BaseURL }}/posts">posts</a> | <a href="/about/">about</a></span>
+        <!-- <a href="{{ .Site.BaseURL }}">blog</a> | <a href="/about/">about</a> -->
     </header>
 {{ else }}
     <header id="banner">
-        <h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
-        <nav>
-            <ul>
-                {{ range .Site.Menus.main.ByWeight -}}
-                <li>
-                    {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
-                </li>
-                {{- end }}
-            </ul>
-        </nav>
+        <span><a href="{{ .Site.BaseURL }}">blog</a> | <a href="{{ .Site.BaseURL }}/posts">posts</a> | <a href="https://www.bodunhu.com/">about</a></span>
+        <!-- <a href="{{ .Site.BaseURL }}">blog</a> | <a href="/about/">about</a> -->
+    </header>
+
+    <header style="text-align: center;">
+        <h1>{{ .Site.Title }}</h1>
     </header>
 {{- end }}
